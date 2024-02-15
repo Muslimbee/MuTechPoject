@@ -1,0 +1,134 @@
+.home{
+    max-width: 100%;
+    height: 750px;
+    border: 1px solid;
+    position: relative;
+    margin-top: 100px;
+    background-image: linear-gradient(to right, #f5f7fb 0%, #edf2fb 100%);
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        .hero-list{
+            width: 100%;
+            height: 100%;
+            h3{
+                color: #22253B;
+                font-size: 46px;
+                font-weight: 100;
+                position: relative;
+                top: 90px;
+                text-align: start;
+                width: 95%;
+                z-index: 50;
+                b{
+                    color: #F15525;
+                    font-style: italic;
+                    
+                }
+                span{
+                    color: #22253B;
+                    font-style: italic;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 600;
+                    
+                }
+            }
+            p{
+                font-size: 20px;
+                color: #22253B;
+                width: 555px;
+                font-style: normal;
+                font-weight: 100;
+                position: relative;
+                z-index: 50;
+                top: 200px;
+            }
+            .home-button{
+                height: 90px;
+                width: 450px;
+                border-radius: 82px;
+                background: #F15525;
+                color: #fff;
+                font-size: 25px;
+                position: relative;
+                top: 240px;
+                font-weight: 100;
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 50;
+                gap: 10px;
+                i{
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 100;
+                }
+            }
+        }
+        .hero-img{
+            width: 100%;
+            height: 100%;
+            position: relative;    
+            .border-radius-1{
+                position: absolute;
+                width: 1650px;
+                height: 1650px;
+                top: -460px;
+                border-radius: 50%;
+                left: -400px;
+                border: 5px solid white;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+            .border-radius-2{
+                position: absolute;
+                width: 1250px;
+                height: 1250px;
+                border-radius: 50%;
+                border: 5px solid white;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .border-radius-3{
+                position: absolute;
+                width: 850px;
+                height: 850px;
+                border-radius: 50%;
+                border: 5px solid white;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .border-radius-4{
+                position: absolute;
+                width: 450px;
+                height: 450px;
+                border-radius: 50%;
+                border: 5px solid white;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .homeImg{
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    left: 10px;
+                    top: -10px;
+                }
+            }
+
+        }
+    }
+}
