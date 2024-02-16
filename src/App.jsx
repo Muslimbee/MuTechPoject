@@ -1,13 +1,14 @@
 import './App.css'
 import Navbar from './components/Navigation/Navbar'
-import Home from './pages/Home/Home'
+import Blokc from './pages/Blokc'
+
 
 function App() {
 
   return (
     <>
    <Navbar />
-   <Home/>
+    <Blokc />
     </>
   )
 }

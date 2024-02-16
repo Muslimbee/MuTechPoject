@@ -3,10 +3,33 @@ import './Navbar.scss'
 import Logo from '../../../public/Logo/LogoMu.jpg'
 
 export default function Navbar() {
+
+    
+    
+    const Navbar = () => {
+        const [scrolling, setScrolling] = useState(false);
+      
+        useEffect(() => {
+          const handleScroll = () => {
+            if (window.scrollY > 20) {
+              setScrolling(true);
+            } else {
+              setScrolling(false);
+            }
+          };
+      
+          window.addEventListener('scroll', handleScroll);
+      
+          return () => {
+            window.removeEventListener('scroll', handleScroll);
+          };
+        }, []);}
+
+    
   return (
-    <div>
-       <div className="nav">
-        <div className="navbar">
+    <nav >
+       <nav className="nav">
+        <nav className="navbar">
             <div className="navbar-logo">
             <img src={Logo} alt="" />
             </div>
@@ -28,10 +51,10 @@ export default function Navbar() {
                     </button>
                 </div>
             </div>
-        </div>
+        </nav>
         .
-        </div> 
-    </div>
+        </nav> 
+    </nav>
     
   )
 }
